@@ -1,4 +1,3 @@
-// src/components/DayNightModeToggle.tsx
 import React from "react";
 import "./DayNightModeToggle.css";
 import { Box } from "@material-ui/core";

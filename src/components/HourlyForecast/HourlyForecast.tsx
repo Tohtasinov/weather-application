@@ -38,7 +38,7 @@ const HourlyForecast: React.FC<HourlyForecastProps> = ({
           }
         );
 
-        const data = response.data.list.slice(0, 5); // Get the first 5 forecast items
+        const data = response.data.list.slice(0, 5);
         const forecastData: HourlyForecastData[] = data.map((item: any) => ({
           dt: item.dt,
           temp: item.main.temp,

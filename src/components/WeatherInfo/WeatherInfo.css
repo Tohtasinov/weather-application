@@ -75,15 +75,15 @@
   cursor: pointer;
   font-size: 24px;
   margin: 0 5px;
-  color: #333; /* Цвет иконок */
+  color: #333;
 }
 
 .icon-button:hover {
-  color: #666; /* Цвет иконок при наведении */
+  color: #666;
 }
 
 .dark-mode .icon-button {
-  color: #ccc; /* Цвет иконок в темном режиме */
+  color: #ccc;
 }
 
 .dark-mode .icon-button:hover {
