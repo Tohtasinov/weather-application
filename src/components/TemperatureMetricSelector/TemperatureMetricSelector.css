@@ -1,0 +1,22 @@
+.temperature-metric-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.temperature-metric-selector button {
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.temperature-metric-selector button:hover {
+  background-color: #f0f0f0;
+}
+
+.temperature-metric-selector button.selected {
+  background-color: #007bff;
+  color: #ffffff;
+}

@@ -1,0 +1,103 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #007bff;
+}
+
+.toggle-container {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container label {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header select,
+  .toggle-container {
+    margin: 10px 0;
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.unit-toggle-button,
+.dark-mode-toggle-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.unit-toggle-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.unit-toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode-toggle-button {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode-toggle-button:hover {
+  background-color: #555;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .unit-toggle-button,
+.dark-mode .dark-mode-toggle-button {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode .unit-toggle-button:hover {
+  background-color: #777;
+}
+
+.dark-mode .dark-mode-toggle-button:hover {
+  background-color: #777;
+}

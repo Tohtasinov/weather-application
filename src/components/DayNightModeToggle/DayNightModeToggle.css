@@ -1,0 +1,9 @@
+.day-night-mode-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.day-night-mode-toggle label {
+  margin-left: 10px;
+}
